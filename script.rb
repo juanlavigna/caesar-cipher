@@ -24,12 +24,11 @@ def caesar_cipher (string, num)
     p cifrado
 end
 
-caesar_cipher("fmjy hsyl", 2)
+print "Enter a string to encode:"
+phrase = gets.chomp
 
+print "Enter shift factor:"
+shift_factor = gets.chomp.to_i
 
-
-
-# phrase = gets.chomp
-
-# shift_factor = gets.chomp.to_i
+caesar_cipher(phrase, shift_factor)
 
